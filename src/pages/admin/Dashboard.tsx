@@ -84,7 +84,7 @@ const Dashboard = () => {
               </div>
 
               <div className="dashboard-categories">
-                <h2>Inventory</h2>
+                <h2>Services Inventory</h2>
 
                 <div>
                   {stats?.categoryCount?.map((i) => {
