@@ -70,7 +70,7 @@ const Products = () => {
     columns,
     rows,
     "dashboard-product-box",
-    "Products",
+    "Services",
     rows.length > 6
   )();
 

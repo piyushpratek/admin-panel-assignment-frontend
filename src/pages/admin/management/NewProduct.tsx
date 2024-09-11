@@ -58,13 +58,13 @@ const NewProduct = () => {
       <main className="product-management">
         <article>
           <form onSubmit={submitHandler}>
-            <h2>New Product</h2>
+            <h2>New Service</h2>
             <div>
-              <label>Name</label>
+              <label>Service Name</label>
               <input
                 required
                 type="text"
-                placeholder="Name"
+                placeholder="Service Name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />

@@ -42,7 +42,7 @@ const Barcharts = () => {
                 bgColor_1={`hsl(260, 50%, 30%)`}
                 bgColor_2={`hsl(360, 90%, 90%)`}
               />
-              <h2>Top Products & Top Customers</h2>
+              <h2>Top Services & Top Customers</h2>
             </section>
 
             <section>

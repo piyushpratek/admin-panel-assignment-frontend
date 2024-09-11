@@ -59,7 +59,7 @@ const PieCharts = () => {
                   offset={[0, 0, 0, 80]}
                 />
               </div>
-              <h2>Product Categories Ratio</h2>
+              <h2>Service Categories Ratio</h2>
             </section>
 
             <section>

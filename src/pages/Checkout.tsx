@@ -55,13 +55,16 @@ const CheckOutForm = () => {
       user: user!._id,
     };
 
+
     const { paymentIntent, error } = await stripe.confirmPayment({
       elements,
-      confirmParams: { return_url: window.location.origin },
+      confirmParams: { return_url: window.location.origin, },
       redirect: "if_required",
     });
 
     if (error) {
+      console.error("Payment confirmation error:", error);
+
       setIsProcessing(false);
       return toast.error(error.message || "Something Went Wrong");
     }

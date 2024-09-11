@@ -53,7 +53,7 @@ const Linecharts = () => {
                 labels={months}
                 label="Products"
               />
-              <h2>Total Products (SKU)</h2>
+              <h2>Total Services (SKU)</h2>
             </section>
 
             <section>

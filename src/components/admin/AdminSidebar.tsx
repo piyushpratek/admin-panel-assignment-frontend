@@ -49,13 +49,13 @@ const AdminSidebar = () => {
         style={
           phoneActive
             ? {
-                width: "20rem",
-                height: "100vh",
-                position: "fixed",
-                top: 0,
-                left: showModal ? "0" : "-20rem",
-                transition: "all 0.5s",
-              }
+              width: "20rem",
+              height: "100vh",
+              position: "fixed",
+              top: 0,
+              left: showModal ? "0" : "-20rem",
+              transition: "all 0.5s",
+            }
             : {}
         }
       >
@@ -86,7 +86,7 @@ const DivOne = ({ location }: { location: Location }) => (
       />
       <Li
         url="/admin/product"
-        text="Product"
+        text="Service"
         Icon={RiShoppingBag3Fill}
         location={location}
       />

@@ -95,7 +95,7 @@ const Search = () => {
         </div>
       </aside>
       <main>
-        <h1>Products</h1>
+        <h1>Services</h1>
         <input
           type="text"
           placeholder="Search by name..."

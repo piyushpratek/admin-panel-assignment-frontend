@@ -25,6 +25,7 @@ const Header = ({ user }: PropsType) => {
       toast.success("Sign Out Successfully");
       setIsOpen(false);
     } catch (error) {
+      console.error(error);  // Log the error for debugging
       toast.error("Sign Out Fail");
     }
   };

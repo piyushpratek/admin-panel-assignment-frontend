@@ -85,7 +85,7 @@ const Cart = () => {
       </main>
       <aside>
         <p>Subtotal: ₹{subtotal}</p>
-        <p>Shipping Charges: ₹{shippingCharges}</p>
+        <p>Service Providing Charges: ₹{shippingCharges}</p>
         <p>Tax: ₹{tax}</p>
         <p>
           Discount: <em className="red"> - ₹{discount}</em>

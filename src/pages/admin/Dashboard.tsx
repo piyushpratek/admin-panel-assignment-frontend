@@ -65,7 +65,7 @@ const Dashboard = () => {
                 percent={stats?.changePercent?.product ?? 0}
                 value={stats?.count?.product ?? 0}
                 color="rgb(76 0 255)"
-                heading="Products"
+                heading="Services"
               />
             </section>
 
